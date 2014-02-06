@@ -1,0 +1,13 @@
+Generate mazes for tower defense games
+
+mazegen.rb takes a file describing a maze.
+
+Planned: Evolutionary algorithm resulting in a maze of placed towers with a long running path
+
+input format:
+
+S...        Start
+W...        wall, not passable
+U...        unbuildable, but passable
+ (blank)... Buildable, passable
+G...        Goal
